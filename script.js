@@ -36,7 +36,7 @@ window.onclick = function(event) {
 // Service Worker
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/gcm-visa-app/service-worker.js')
+    navigator.serviceWorker.register('/gcm-visa-app-admin/service-worker.js')
       .then(reg => console.log('ServiceWorker registered:', reg.scope))
       .catch(err => console.error('SW registration failed:', err));
   });
