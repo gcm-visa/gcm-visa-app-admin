@@ -2,7 +2,7 @@
   "name": "GCM VISA Application",
   "short_name": "GCM VISA Admin",
   "description": "GCM VISA App for Admin.",
-  "start_url": "/gcm-visa-app/",
+  "start_url": "/gcm-visa-app-admin/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#579af2",
